@@ -1,0 +1,17 @@
+exclude:
+  - script
+  - bin
+  - lib
+  - Gemfile
+  - Gemfile.lock
+  - jekyll-auth.gemspec
+  - jekyll-auth*.gem
+  - config.ru
+  - Rakefile
+  - readme.md
+  - vendor
+
+jekyll_auth:
+  whitelist:
+    - drafts?
+  ssl: true
